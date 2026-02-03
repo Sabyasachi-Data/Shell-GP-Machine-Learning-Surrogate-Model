@@ -355,7 +355,7 @@ If you use this code in your research, please cite:
   doi={https://doi.org/10.1007/s10999-025-09775-3}
 }
 ```
-```
+```bibtex
 @article{ghosh2025afree,
   title={Free vibration and global sensitivity analysis of perforated composite skew shallow shells on elastic foundations},
   author={Ghosh, Sabyasachi and Haldar, Salil},
