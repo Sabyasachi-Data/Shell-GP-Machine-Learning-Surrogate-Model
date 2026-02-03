@@ -319,7 +319,7 @@ Figure 3: First-order (S₁) and total-order (Sₜ) Sobol indices. Thickness (a/
 
 #### 4. Second-Order Interactions Heatmap
 <center>
-<img src="outputs/figures/sobol_heatmap.png" alt="Sobol Heatmap" width="70%">
+<img src="outputs/figures/sobol_heatmap.png" alt="Sobol Heatmap" width="85%">
 <center>
 Figure 4: Second-order interaction effects (S₂). Strong interactions observed between a/h (thickness ratio) and elastic foundations.
 ---
