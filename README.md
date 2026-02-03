@@ -386,8 +386,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 👤 Contact
 
-**[Your Name]**
-- Email: [sabyasachighos@gmail.com]
+- LinkedIn: [Sabyasachi Ghosh](https://www.linkedin.com/in/sabyasachi-ghosh-7098a7272/)
 - GitHub: [@Sabyasachi-Data](https://github.com/Sabyasachi-Data)
 - Institution: Indian Institute of Engineering Science and Technology
 
