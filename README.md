@@ -302,7 +302,7 @@ Predictions include:
 
 *Figure 2a: GP predictions (blue) vs true values (black) with 95% confidence intervals of first 50 test indices. The model captures the frequency with well-calibrated uncertainty estimates.*
 
-![Predictions Plot](outputs/figures/predictions_uncertainty_2.png)
+![Predictions Plot](outputs/figures/predictions_uncertainty_ff.png)
 
 *Figure 2b: GP predictions (blue) vs true values (black) with 95% confidence intervals of first 50 test indices sorted by target (Y) values.*
 
