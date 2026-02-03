@@ -42,7 +42,7 @@ The framework is designed for **structural engineering applications** but can be
 <center>
     <img src="outputs/figures/predictions_uncertainty_2.png" alt="Predictions Plot" width="85%">
 <center>
----
+
 
 ## ✨ Features
 
@@ -322,7 +322,7 @@ Figure 3: First-order (S₁) and total-order (Sₜ) Sobol indices. Thickness (a/
 <img src="outputs/figures/sobol_heatmap.png" alt="Sobol Heatmap" width="85%">
 <center>
 Figure 4: Second-order interaction effects (S₂). Strong interactions observed between a/h (thickness ratio) and elastic foundations.
----
+
 
 ## 📚 Publications
 
