@@ -40,6 +40,7 @@ This project implements a **complete machine learning pipeline** for predicting 
 
 The framework is designed for **structural engineering applications** but can be adapted to any regression problem requiring uncertainty quantification and sensitivity analysis.
 
+![Predictions Plot](outputs/figures/predictions_uncertainty_2.png)
 ---
 
 ## ✨ Features
@@ -304,10 +305,6 @@ Predictions include:
 ![Predictions Plot](outputs/figures/predictions_uncertainty_2.png)
 
 *Figure 2b: GP predictions (blue) vs true values (black) with 95% confidence intervals of first 50 test indices sorted by target (Y) values.*
-
-
-
-
 
 #### 3. Sobol Sensitivity Indices
 
