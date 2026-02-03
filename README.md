@@ -39,8 +39,9 @@ This project implements a **complete machine learning pipeline** for predicting 
 - **Variance decomposition based global sensitivity analysis** to identify influential parameters
 
 The framework is designed for **structural engineering applications** but can be adapted to any regression problem requiring uncertainty quantification and sensitivity analysis.
+<center>
 <img src="outputs/figures/predictions_uncertainty_2.png" alt="Predictions Plot" width="75%">
-
+<center>
 ---
 
 ## ✨ Features
@@ -291,31 +292,31 @@ Predictions include:
 ## 📈 Results
 
 #### 1. Parity Plot
-
-<img src="outputs/figures/parity_plot.png" alt="Parity Plot" width="75%">
-
+<center>
+<img src="outputs/figures/parity_plot.png" alt="Parity Plot" width="60%">
+<center>
 *Figure 1: Predicted vs actual deflection values. Points close to the diagonal indicate accurate predictions. R² = 0.94, MAE = 12.8, RMSE = 23.0*
 
 #### 2. Predictions with Uncertainty Bounds
-
+<center>
 <img src="outputs/figures/predictions_uncertainty_1.png" alt="Predictions Plot" width="75%">
-
+<center>
 *Figure 2a: GP predictions (blue) vs true values (black) with 95% confidence intervals of first 50 test indices. The model captures the frequency with well-calibrated uncertainty estimates.*
-
+<center>
 <img src="outputs/figures/predictions_uncertainty_ff.png" alt="Predictions Plot" width="75%">
-
+<center>
 *Figure 2b: GP predictions (blue) vs true values (black) with 95% confidence intervals of first 50 test indices sorted by target (Y) values.*
 
 #### 3. Sobol Sensitivity Indices
-
+<center>
 <img src="outputs/figures/sobol_indices.png" alt="Sobol Indices" width="75%">
-
+<center>
 *Figure 3: First-order (S₁) and total-order (Sₜ) Sobol indices. Thickness (a/h) and elastic foundations are the most influential parameters.*
 
 #### 4. Second-Order Interactions Heatmap
-
-<img src="outputs/figures/sobol_heatmap.png" alt="Sobol Heatmap" width="75%">
-
+<center>
+<img src="outputs/figures/sobol_heatmap.png" alt="Sobol Heatmap" width="70%">
+<center>
 *Figure 4: Second-order interaction effects (S₂). Strong interactions observed between a/h (thickness ratio) and elastic foundations.*
 
 ---
