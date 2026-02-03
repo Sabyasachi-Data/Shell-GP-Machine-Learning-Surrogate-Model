@@ -40,7 +40,7 @@ This project implements a **complete machine learning pipeline** for predicting 
 
 The framework is designed for **structural engineering applications** but can be adapted to any regression problem requiring uncertainty quantification and sensitivity analysis.
 <center>
-    <img src="outputs/figures/predictions_uncertainty_2.png" alt="Predictions Plot" width="75%">
+    <img src="outputs/figures/predictions_uncertainty_2.png" alt="Predictions Plot" width="85%">
 <center>
 ---
 
@@ -299,11 +299,11 @@ Predictions include:
 
 #### 2. Predictions with Uncertainty Bounds
 <center>
-<img src="outputs/figures/predictions_uncertainty_1.png" alt="Predictions Plot" width="75%">
+<img src="outputs/figures/predictions_uncertainty_1.png" alt="Predictions Plot" width="85%">
 <center>
 *Figure 2a: GP predictions (blue) vs true values (black) with 95% confidence intervals of first 50 test indices. The model captures the frequency with well-calibrated uncertainty estimates.*
 <center>
-<img src="outputs/figures/predictions_uncertainty_ff.png" alt="Predictions Plot" width="75%">
+<img src="outputs/figures/predictions_uncertainty_ff.png" alt="Predictions Plot" width="85%">
 <center>
 *Figure 2b: GP predictions (blue) vs true values (black) with 95% confidence intervals of first 50 test indices sorted by target (Y) values.*
 
