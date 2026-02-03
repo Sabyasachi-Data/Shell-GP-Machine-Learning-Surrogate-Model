@@ -39,8 +39,8 @@ This project implements a **complete machine learning pipeline** for predicting 
 - **Variance decomposition based global sensitivity analysis** to identify influential parameters
 
 The framework is designed for **structural engineering applications** but can be adapted to any regression problem requiring uncertainty quantification and sensitivity analysis.
+<img src="outputs/figures/predictions_uncertainty_2.png" alt="Predictions Plot" width="75%">
 
-![Predictions Plot](outputs/figures/predictions_uncertainty_2.png){width=150px height=100px }
 ---
 
 ## ✨ Features
@@ -292,29 +292,29 @@ Predictions include:
 
 #### 1. Parity Plot
 
-![Parity Plot](outputs/figures/parity_plot.png)
+<img src="outputs/figures/parity_plot.png" alt="Parity Plot" width="75%">
 
 *Figure 1: Predicted vs actual deflection values. Points close to the diagonal indicate accurate predictions. R² = 0.94, MAE = 12.8, RMSE = 23.0*
 
 #### 2. Predictions with Uncertainty Bounds
 
-![Predictions Plot](outputs/figures/predictions_uncertainty_1.png)
+<img src="outputs/figures/predictions_uncertainty_1.png" alt="Predictions Plot" width="75%">
 
 *Figure 2a: GP predictions (blue) vs true values (black) with 95% confidence intervals of first 50 test indices. The model captures the frequency with well-calibrated uncertainty estimates.*
 
-![Predictions Plot](outputs/figures/predictions_uncertainty_ff.png)
+<img src="outputs/figures/predictions_uncertainty_ff.png" alt="Predictions Plot" width="75%">
 
 *Figure 2b: GP predictions (blue) vs true values (black) with 95% confidence intervals of first 50 test indices sorted by target (Y) values.*
 
 #### 3. Sobol Sensitivity Indices
 
-![Sobol Indices](outputs/figures/sobol_indices.png)
+<img src="outputs/figures/sobol_indices.png" alt="Sobol Indices" width="75%">
 
 *Figure 3: First-order (S₁) and total-order (Sₜ) Sobol indices. Thickness (a/h) and elastic foundations are the most influential parameters.*
 
 #### 4. Second-Order Interactions Heatmap
 
-![Sobol Heatmap](outputs/figures/sobol_heatmap.png)
+<img src="outputs/figures/sobol_heatmap.png" alt="Sobol Heatmap" width="75%">
 
 *Figure 4: Second-order interaction effects (S₂). Strong interactions observed between a/h (thickness ratio) and elastic foundations.*
 
