@@ -40,7 +40,7 @@ This project implements a **complete machine learning pipeline** for predicting 
 
 The framework is designed for **structural engineering applications** but can be adapted to any regression problem requiring uncertainty quantification and sensitivity analysis.
 <center>
-<img src="outputs/figures/predictions_uncertainty_2.png" alt="Predictions Plot" width="75%">
+    <img src="outputs/figures/predictions_uncertainty_2.png" alt="Predictions Plot" width="75%">
 <center>
 ---
 
