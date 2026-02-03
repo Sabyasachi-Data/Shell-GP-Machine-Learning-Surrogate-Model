@@ -98,8 +98,11 @@ gp_pipeline_project/
 
 ```bash
 # Clone the repository
-git clone <repository-url>
-cd gp_pipeline_project
+git clone https://github.com/Sabyasachi-Data/Shell-GP-Machine-Learning-Surrogate-Model.git
+```
+```bash
+#Once cloning is complete, navigate to repository directory:
+cd Shell-GP-Machine-Learning-Surrogate-Model
 ```
 ```bash
 # Create conda environment
