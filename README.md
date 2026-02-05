@@ -40,10 +40,17 @@ This project implements a **complete machine learning pipeline** for predicting 
 - **Variance decomposition based global sensitivity analysis** to identify influential parameters
 
 The framework is designed for **structural engineering applications** but can be adapted to any regression problem requiring uncertainty quantification and sensitivity analysis.
-<center>
-    <img src="outputs/figures/predictions_uncertainty_2.png" alt="Predictions Plot" width="85%">
-<center>
-*Probabilistic model mean output on test data, having higher confidence (lower S.D) at targets regions having high data density and high S.D in the predictive mean, at target values of lower densities.*
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center" width="85%">
+      <img src="outputs/figures/predictions_uncertainty_2.png" width="100%">
+      <br>
+      <sub><i>Probabilistic predictions on the test set: low predictive S.D. in data-dense regions and higher S.D. where data are sparse. Gaussian process regression naturally provides calibrated output in predictive mean and variance terms, better suited than ordinary least squares for heteroscedastic frequency data.</i></sub>
+    </td>
+  </tr>
+</table>
+
+**
 
 ## ✨ Features
 
