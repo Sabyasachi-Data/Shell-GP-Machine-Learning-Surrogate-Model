@@ -50,8 +50,6 @@ The framework is designed for **structural engineering applications** but can be
   </tr>
 </table>
 
-**
-
 ## ✨ Features
 
 ### Core Capabilities
@@ -303,34 +301,58 @@ Predictions include:
 ## 📈 Results
 
 #### 1. Parity Plot
-<center>
-<img src="outputs/figures/parity_plot.png" alt="Parity Plot" width="60%">
-<center>
-Figure 1: Predicted vs actual deflection values. Points close to the diagonal indicate accurate predictions. R² = 0.98, MAE = 5.747, RMSE = 10.39
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center" width="60%">
+      <img src="outputs/figures/parity_plot.png" alt="Parity Plot" width="100%">
+      <br>
+      <sub><i>Predicted vs actual deflection values. Points close to the diagonal indicate accurate predictions. R² = 0.98, MAE = 5.747, RMSE = 10.39</i></sub>
+    </td>
+  </tr>
+</table>
 
 #### 2. Predictions with Uncertainty Bounds
-<center>
-<img src="outputs/figures/predictions_uncertainty_1.png" alt="Predictions Plot" width="85%">
-<center>
-Figure 2a: GP predictions (blue) vs true values (black) with 95% confidence intervals of first 50 test indices. The model captures the frequency with well-calibrated uncertainty estimates.
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center" width="85%">
+      <img src="outputs/figures/predictions_uncertainty_1.png" alt="Predictions Plot" width="100%">
+      <br>
+      <sub><i>GP predictions (blue) vs true values (black) with 95% confidence intervals of first 50 test indices. The model captures the frequency with well-calibrated uncertainty estimates.</i></sub>
+    </td>
+  </tr>
+</table>
 
-<center>
-    <img src="outputs/figures/prediction_uncertainity_ff.png" alt="Predictions Plot" width="85%">
-<center>
-Figure 2b: GP predictions (blue) vs true values (black) with 95% confidence intervals of first 50 test indices sorted by target (Y) values.
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center" width="85%">
+      <img src="outputs/figures/prediction_uncertainity_ff.png" alt="Predictions Plot" width="100%">
+      <br>
+      <sub><i>GP predictions (blue) vs true values (black) with 95% confidence intervals of first 50 test indices sorted by target (Y) values.</i></sub>
+    </td>
+  </tr>
+</table>
 
 #### 3. Sobol Sensitivity Indices
-<center>
-<img src="outputs/figures/sobol_indices.png" alt="Sobol Indices" width="75%">
-<center>
-Figure 3: First-order (S₁) and total-order (Sₜ) Sobol indices. Thickness (a/h) and elastic foundations are the most influential parameters.
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center" width="75%">
+      <img src="outputs/figures/prediction_uncertainity_ff.png" alt="Predictions Plot" width="100%">
+      <br>
+      <sub><i>First-order (S₁) and total-order (Sₜ) Sobol indices. Thickness (a/h) and elastic foundations are the most influential parameters.</i></sub>
+    </td>
+  </tr>
+</table>
 
 #### 4. Second-Order Interactions Heatmap
-<center>
-<img src="outputs/figures/sobol_heatmap.png" alt="Sobol Heatmap" width="85%">
-<center>
-Figure 4: Second-order interaction effects (S₂). Strong interactions observed between a/h (thickness ratio) and elastic foundations.
-
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center" width="85%">
+      <img src="outputs/figures/sobol_heatmap.png" alt="Sobol Heatmap" width="85%" width="100%">
+      <br>
+      <sub><i>Second-order interaction effects (S₂). Strong interactions observed between a/h (thickness ratio) and elastic foundations.</i></sub>
+    </td>
+  </tr>
+</table>
 
 ## 📚 Publications
 
