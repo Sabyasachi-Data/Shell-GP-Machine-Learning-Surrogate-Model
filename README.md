@@ -270,7 +270,7 @@ Predictions include:
 
 **Sobol indices** quantify parameter importance:
 
-- **S₁ (First-order)**: Direct effect of i^{th} parameter
+- **S₁ (First-order)**: Direct effect of i<sup>th</sup> parameter
 - **Sₜ (Total-order)**: Total effect including interactions
 - **S₂ (Second-order)**: Pairwise interactions between parameters
 
@@ -303,7 +303,7 @@ Predictions include:
 #### 1. Parity Plot
 <table border="0" cellspacing="0" cellpadding="0">
   <tr>
-    <td align="center" width="60%">
+    <td align="center" width="50%">
       <img src="outputs/figures/parity_plot.png" alt="Parity Plot" width="100%">
       <br>
       <sub><i>Predicted vs actual deflection values. Points close to the diagonal indicate accurate predictions. R² = 0.98, MAE = 5.747, RMSE = 10.39</i></sub>
@@ -404,7 +404,8 @@ If you use this code in your research, please cite:
 ---
 ## ⚠️ Disclaimer
 
-Accuracy can be further increased by training on higher number of samples, present model has been trained on 3750 samples, having a training time of ~ 7 minutes, using 24 cores CPU and 32 GB RAM. 
+Accuracy can be further increased by training on higher number of samples, presented figures has been obtained by training the model on 3750 samples, having a training time of ~ 7 minutes, using 24 cores CPU and 32 GB RAM. 
+
 
 ---
 
