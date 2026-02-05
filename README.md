@@ -336,7 +336,7 @@ Predictions include:
 <table border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td align="center" width="75%">
-      <img src="outputs/figures/prediction_uncertainity_ff.png" alt="Predictions Plot" width="100%">
+      <img src="outputs/figures/sobol_indices.png" alt="sobol Indices" width="100%">
       <br>
       <sub><i>First-order (S₁) and total-order (Sₜ) Sobol indices. Thickness (a/h) and elastic foundations are the most influential parameters.</i></sub>
     </td>
