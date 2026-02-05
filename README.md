@@ -306,7 +306,8 @@ Predictions include:
     <td align="center" width="40%">
       <img src="outputs/figures/parity_plot.png" alt="Parity Plot" width="100%">
       <br>
-      <sub><i>Predicted vs actual deflection values. Points close to the diagonal indicate accurate predictions. R² = 0.98, MAE = 5.747, RMSE = 10.39</i></sub>
+      <sub><i>Predicted vs actual deflection values. Points close to the diagonal indicate accurate predictions. R² = 0.98, MAE = 5.747, RMSE = 10.39
+      *Trained on dataset having 40,000 rows*.</i></sub>
     </td>
   </tr>
 </table>
