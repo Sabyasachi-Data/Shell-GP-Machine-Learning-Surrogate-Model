@@ -1,6 +1,6 @@
 # Gaussian Process Regression with Global Sensitivity Analysis
 
-A modular Python framework for Gaussian Process (GP) regression with uncertainty quantification and Sobol global sensitivity analysis, applied to **skewed laminated composite shell natural frequency prediction**.
+A production-style Python framework that replaces expensive FEM computations with a probabilistic Gaussian Process surrogate for fast uncertainty quantification and variance-based (Sobol) global sensitivity analysis.
 
 [![forthebadge](https://forthebadge.com/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/badges/made-with-python.svg)](https://forthebadge.com)
@@ -34,7 +34,8 @@ This project implements a **complete machine learning pipeline** for predicting 
 
 - **Quantile transformation** of input features
 - **Log transformation** of target variable (Natural Frequency)
-- **Hyperparameter optimization** for GP kernels
+- **Hyperparameter optimization** by maximizing Log-Marginal likelihood of optimizer
+- **Probabilistic output with predictive mean and standard deviations
 - **Uncertainty quantification** with 95% confidence intervals
 - **Variance decomposition based global sensitivity analysis** to identify influential parameters
 
@@ -42,14 +43,14 @@ The framework is designed for **structural engineering applications** but can be
 <center>
     <img src="outputs/figures/predictions_uncertainty_2.png" alt="Predictions Plot" width="85%">
 <center>
-
+*Probabilistic model mean output on test data, having higher confidence (lower S.D) at targets regions having high data density and high S.D in the predictive mean, at target values of lower densities.*
 
 ## ✨ Features
 
 ### Core Capabilities
 
 - ✅ **Modular Design**: Clean separation of data loading, model training, evaluation, and sensitivity analysis
-- ✅ **Advanced GP Kernels**: Support for RBF, Matérn, RationalQuadratic, and combined kernels
+- ✅ **Advanced GP Kernels**: Support for RBF, **Matérn**, RationalQuadratic, and combined kernels
 - ✅ **Uncertainty Quantification**: Predictions with standard deviations and confidence intervals
 - ✅ **Global Sensitivity Analysis**: Sobol indices (first-order, total-order, second-order interactions)
 - ✅ **Comprehensive Visualizations**: Prediction plots, parity plots, residual analysis, sensitivity heatmaps
@@ -298,7 +299,7 @@ Predictions include:
 <center>
 <img src="outputs/figures/parity_plot.png" alt="Parity Plot" width="60%">
 <center>
-Figure 1: Predicted vs actual deflection values. Points close to the diagonal indicate accurate predictions. R² = 0.94, MAE = 12.8, RMSE = 23.0
+Figure 1: Predicted vs actual deflection values. Points close to the diagonal indicate accurate predictions. R² = 0.98, MAE = 5.747, RMSE = 10.39
 
 #### 2. Predictions with Uncertainty Bounds
 <center>
